@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+header{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-auto-flow: column;
+    background-color: #6610F2;
+    padding: 2vh 20%;
+}
+
+header nav{
+    display: flex;
+    list-style: none;
+}
+.social-media{  
+    
+}
+nav *{
+    margin-left: 1vw;
+}
+header *{
+    
+    display: flex;
+    color: #f2f2f2
+}
